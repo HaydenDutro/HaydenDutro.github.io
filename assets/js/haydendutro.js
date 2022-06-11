@@ -1,4 +1,4 @@
-import {Typewriter} from '/assets/js/typewriter-effect/dist/core.js';
+import Typewriter from 'https://unpkg.com/typewriter-effect@latest/dist/core.js';
 
 function homeType() {
     let welcomeHead = document.getElementById("test123");
