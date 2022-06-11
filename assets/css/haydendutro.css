@@ -1,0 +1,31 @@
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+}
+
+#homeWelcome{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#homeWelcomeBackground{
+    height: auto;
+    width: 100%;
+    
+}
+
+#homeWelcomeText{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.body{
+    background-color: yellow;
+}
+
+.img{
+    size: 10px;
+}
