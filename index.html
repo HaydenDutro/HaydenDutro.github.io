@@ -1,66 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Home</title>
+  
+  <!-- Bootstrap and Ajax -->
+<!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-  <title>Hayden Dutro Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <!-- My CSS + JS-->
+  <link href="assets/css/haydendutro.css" rel="stylesheet"/>
+  <link href="assets/css/homeCSS.css" rel="stylesheet"/>
+  <script src="assets/js/haydendutro.js"></script>
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: WeBuild - v4.6.0
-  * Template URL: https://bootstrapmade.com/free-bootstrap-coming-soon-template-countdwon/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
-
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="container-fluid d-flex justify-content-between align-items-center">
-
-      <div class="logo">
-        <h1 class="text-light"><span>Hayden Dutro</span></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+  <div class="container-fluid">
+    <div id="homeWelcome">
+      <img src="assets/img/computerScreen.jpg" id="homeWelcomeBackground" alt="background for home page, computer screen with a purple light on a wall fading upward">
+      <div id="homeWelcomeText" class="css-typing">
+        <h1 id="welcomeHead1">Welcome to my Website!</h1>
+        <h1 id="welcomeHead2">I plan to use it for a web portfolio</h1>
+        <h1 id="welcomeHead3">Please reach out for any questions</h1>
       </div>
     </div>
-  </header><!-- End #header -->
+  </div>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
-      <h1>HaydenDutro.com</h1>
-      <h2>I am curently working on this site as a online resume. I hope to get it done in</h2>
-      <div class="countdown" data-count="2022/10/25" data-template="%w weeks %d days <br> %h:%m:%s"></div>
+  <header id="header">
+    <nav class="navbar navbar-expand-lg">
+      <img class="HD" src="assets/img/HD.png" alt="Logo entalling the letters H and D" width="50" height="35">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link disabled text-center" href="index.html">Home</a>
+          <a class="nav-item nav-link text-center" href="experiance.html">Experiance</a>
+          <a class="nav-item nav-link text-center" href="personalProjects.html">Personal Projects</a>
+          <a class="nav-item nav-link text-center" href="resume.html">Resume</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <div id="aboutMe">
+    <div class="row">
+      <div class="col-lg">
+        <div class="row align-items-center Per20H">
+          <h1>About Me!</h1>
+        </div>
+        <div class="row align-items-center Per80H" id="introText">
+          <p>I am a 3rd year Computer Science student at Miami University and I am currently in the Air Force Reserves.
+            I have a love for C++, Java, and everything tech related. I have touched many types of engineering
+            in my life: electrical, robotics and automation, C.A.D., and some material engineering.
+          </p>
+        </div>
+      </div>
+      <div class="col align-self-end">
+        <img src="assets\img\Professional.jpg" id="meImg" alt="A picture of me in a suit and jeans looking to the right"> 
+      </div>
     </div>
-  </section><!-- End Hero -->
+  </div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <div id="hobbies">
+    <div class="row">
+      <h1>Some of my hobbies</h1>
+    </div>
+    <div class="row align-items-center">
+      <div class="col">
+        <h3>Building Computers</h3>
+        <p>I love building computers, and have a custom built desktop currently.
+          It started out as a budget build, but I just keep upgrading it over and over.
+          My current specs are a Ryzen 3600, RX 5700 XT and 32GB of RAM!
+        </p>
+      </div>
+      <div class="col">
+        <p>pic of current computer build coming soon</p>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col">
+        <p>pic of DnD and MTG</p>
+      </div>
+      <div class="col">
+        <h3>Dungenions and Dragons</h3>
+        <p>I've played DnD on and off for a good half a decad or more.</p>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col">
+        <h3>Video Games</h3>
+        <p>I have played video games since I was 7, even when my family had dielup internet.</p>
+      </div>
+      <div class="col">
+        <p>pic of video game thing</p>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col">
+        <p>pic of MTG colection</p>
+      </div>
+      <div class="col">
+        <h3>Magic the Gathering</h3>
+        <p>I have alwaysed loved to play MTG with y friends during school.
+          We would always go to a techers room during our lunch who was a fellow nerd and play in there.
+        </p>
+      </div>
+    </div>
+  </div>
 
 </body>
-
 </html>

@@ -1,31 +1,26 @@
-.container-fluid{
-    margin: 0px;
-    padding: 0px;
+#header{
+    background-color: #48e076;
+    margin-bottom: 30px;
 }
 
-#homeWelcome{
-    position: relative;
-    text-align: center;
+#header img{
+    margin-left: 20px;
+}
+
+#header a{
+    color: black;
+    font-size: large;
+    padding: 10px 20px;
+    margin: 0px 10px; 
+}
+
+#header a:hover{
     color: white;
+    background-color:darkslategrey;
 }
 
-#homeWelcomeBackground{
-    height: auto;
-    width: 100%;
-    
+.navbar-toggler{
+    margin-right: 20px;
+    color: black;
 }
 
-#homeWelcomeText{
-    position: absolute;
-    top: 47%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.body{
-    background-color: yellow;
-}
-
-.img{
-    size: 10px;
-}

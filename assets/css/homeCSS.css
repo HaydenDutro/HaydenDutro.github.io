@@ -1,0 +1,54 @@
+#homeWelcome{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#homeWelcomeBackground{
+    height: auto;
+    width: 100%;
+    
+}
+
+#homeWelcomeText{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+}
+
+#aboutMe{
+    text-align: center;
+    margin: 0px 150px;
+}
+
+#aboutMe p{
+    font-size: 30px;
+}
+
+#hobbies{
+    margin: 50px 20px 0px 20px;
+    text-align: center;
+}
+
+#hobbies .row{
+    margin-bottom: 100px;
+}
+
+.Per20H{
+    height: 25%;
+}
+
+#introText{
+    margin-bottom: 20px;
+}
+
+.Per80H{
+    height: 70%;
+}
+
