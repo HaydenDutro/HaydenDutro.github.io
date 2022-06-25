@@ -9,7 +9,7 @@
 
 #header a{
     color: black;
-    font-size: large;
+    font-size: 25px;
     padding: 10px 20px;
     margin: 0px 10px; 
 }
@@ -22,5 +22,9 @@
 .navbar-toggler{
     margin-right: 20px;
     color: black;
+    font-size: 35px;
 }
 
+.navbar-nav{
+    padding: 0px 10vw;
+}
