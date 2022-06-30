@@ -12,28 +12,73 @@
 
   <!-- My CSS + JS-->
   <link href="assets/css/haydendutro.css" rel="stylesheet"/>
-  <link href="assets/css/experianceCSS.css" rel="stylesheet"/>
+  <link href="assets/css/resumeCSS.css" rel="stylesheet"/>
   <script src="assets/js/haydendutro.js"></script>
 
 </head>
 
 <body>
-    <header id="header">
-        <nav class="navbar navbar-expand-lg">
-            <img class="HD" src="assets/img/HD.png" alt="Logo entalling the letters H and D" width="50" height="35">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link text-center" href="index.html">Home</a>
-                <a class="nav-item nav-link text-center" href="experience.html"> Experience</a>
-                <a class="nav-item nav-link text-center" href="personalProjects.html">Personal Projects</a>
-                <a class="nav-item nav-link disabled text-center" href="resume.html">Resume</a>
-            </div>
-            </div>
-        </nav>
-    </header>
+  <header id="header">
+      <nav class="navbar navbar-expand-lg">
+          <img class="HD" src="assets/img/HD.png" alt="Logo entalling the letters H and D" width="50" height="35">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav w-100 justify-content-between">
+              <a class="nav-item nav-link text-center" href="index.html">Home</a>
+              <a class="nav-item nav-link text-center" href="experience.html"> Experience</a>
+              <a class="nav-item nav-link text-center" href="personalProjects.html">Personal Projects</a>
+              <a class="nav-item nav-link disabled text-center" href="resume.html">Resume</a>
+          </div>
+          </div>
+      </nav>
+  </header>
+  
+  <div class="row justify-content-center">
+    <div id="resume">
+      <embed src="assets/Resume.pdf#toolbar=0&view=Fit" width="100%"></embed>
+    </div>
+  </div>
+  <div class="row">
+    <a href="assets/Resume.pdf" download id="download">Click to download my resume</a>
+  </div>
 
+
+  <div class="fcf-body">
+
+    <div id="fcf-form">
+    <h3 class="fcf-h3">Contact us</h3>
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="assets/php/emailPHP.php">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+    </form>
+    </div>
+
+</div>
 </body>
 </html>

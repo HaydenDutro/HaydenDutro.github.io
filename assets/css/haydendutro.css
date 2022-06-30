@@ -1,6 +1,7 @@
 #header{
     background-color: #48e076;
     margin-bottom: 30px;
+    width: 100%;
 }
 
 #header img{
@@ -27,4 +28,5 @@
 
 .navbar-nav{
     padding: 0px 10vw;
+    width: 100%;
 }

@@ -1,3 +1,20 @@
+body{
+    background-color:#072736;
+}
+
+h1{
+    color: #34ace0;
+}
+
+h3{
+
+    color: #34ace0;
+}
+
+p{
+    color: white;
+}
+
 #homeWelcome{
     position: relative;
     text-align: center;
@@ -32,7 +49,7 @@
 }
 
 #hobbies{
-    margin: 50px 20px 0px 20px;
+    margin: 50px 150px 0px 150px;
     text-align: center;
 }
 
