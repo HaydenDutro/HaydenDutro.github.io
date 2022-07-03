@@ -1,0 +1,51 @@
+body{
+    background-color:#072736;
+}
+
+h1{
+    color: #34ace0;
+}
+
+#notDone{
+    text-align: center;
+    margin: 20px;
+}
+
+#projectCards{
+    margin: 20px;
+}
+
+button{
+    background-color: #0c4059;
+    outline: none;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.card-header{
+    margin: 0px;
+}
+
+.card.outer{
+    background-color:#0c4059;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.card.inner{
+    background-color: #48e076;
+    margin: 10px 20px;
+    height: auto;
+    width: 100%;
+}
+
+.card.inner img{
+    width: 100%;
+    aspect-ratio: 16/9
+}
+
+.card-title.inner{
+    text-align: center;
+}

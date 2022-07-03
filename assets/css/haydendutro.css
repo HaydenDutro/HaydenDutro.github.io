@@ -5,17 +5,17 @@
 }
 
 #header img{
-    margin-left: 20px;
+    margin-left: 60px;
 }
 
-#header a{
+#header a.nav-item{
     color: black;
     font-size: 25px;
     padding: 10px 20px;
     margin: 0px 10px; 
 }
 
-#header a:hover{
+#header a.nav-item:hover{
     color: white;
     background-color:darkslategrey;
 }
