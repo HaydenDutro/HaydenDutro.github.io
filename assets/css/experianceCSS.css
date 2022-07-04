@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body{
-    background-color:#072736;
+  background-color:#072736;
+}
+
+.row{
+  width: 100%;
+}
+
+#timelines{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .timeline{
@@ -9,10 +19,11 @@ body{
   color:#fff;
   padding:30px 20px;
   box-shadow:0px 0px 10px rgba(0,0,0,.5);
+  margin: 15px;
 }
 
 .timeline h1{
-    color:#34ace0;
+  color:#34ace0;
 }
 
 .timeline ul{
@@ -21,11 +32,11 @@ body{
 }
 
 .education.timeline ul{
-    border-right:2px solid #094a68;
+  border-right:2px solid #094a68;
 }
 
 .work.timeline ul{
-    border-left:2px solid #094a68;
+  border-left:2px solid #094a68;
 }
 
 .timeline ul li{
@@ -53,16 +64,16 @@ body{
 }
 
 .education.timeline ul li:before{
-    position:absolute;
-    content:'';
-    width:10px;
-    height:10px;
-    background-color:#34ace0;
-    border-radius:50%;
-    right:-11px;
-    top:28px;
-    transition:.5s;
-  }
+  position:absolute;
+  content:'';
+  width:10px;
+  height:10px;
+  background-color:#34ace0;
+  border-radius:50%;
+  right:-11px;
+  top:28px;
+  transition:.5s;
+}
 
 .work.timeline ul li:before{
   position:absolute;
@@ -81,4 +92,47 @@ body{
 .timeline ul li:hover:before{
   background-color:#0F0;
   box-shadow:0px 0px 10px 2px #0F0;
+}
+
+#skills{
+  margin: 50px 0px;
+  padding: 0px;
+}
+
+#skills-header{
+  color: #34ace0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#skills-list{
+  margin: 0px 0px;
+  padding: 0px 50px;
+ 
+}
+
+.skills-item{
+  background-color: #072736;
+  color: #34ace0;
+  border: 0px;
+  font-size: larger;
+  text-align: center;
+}
+
+.skills-item img{
+  transform: scale(1);
+  transition: transform 1.02s;
+}
+
+.skills-item img:hover{
+  transform: scale(1.25);
+  transition: transform 1.02s;
+}
+
+.skills-item h4{
+  margin-top: 10px;
+}
+
+.invert{
+  filter: invert(100);
 }
